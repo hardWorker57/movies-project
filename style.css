@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    font-family: 'Afacad', sans-serif;
+    font-family: 'Comfortaa', sans-serif;
+    color: white;
+    background-color: rgb(28, 26, 40);
+    animation: fadein 0.4s 0s alternate;
+/* font-family: 'Kalnia', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif; */
+}
+@keyframes fadein {
+    from {
+        opacity: 0;
+        transform: translateY(-150px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+header {
+    background-color: #ffffff2e;
+}
+input {
+    background-color: rgba(98, 47, 164, 0.447);
+    outline: none;
+    border: none;
+    color: inherit;
+    border-radius: 1.2em;
+    padding: 0.2em;
+}
+section {
+    margin-top: 8em;
+    max-width: 80%;
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    margin-inline: auto;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+section a:hover {
+    transform: scale(1.05) skew(1deg);
+}
+ul {
+    padding: 0;
+}
+.movie_card {
+    display: flex;
+    flex-direction: column;
+    max-width: 20em;
+    justify-content: space-between;
+}
+.card_img img {
+    width: 18em;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: all .6s;
+}
+.menu a:hover {
+    /* color: rgb(118, 118, 255); */
+    color: #00C2FF;
+}
+.menu li {
+    list-style: none;
+}
+footer {
+    background-color: rgb(33, 17, 108);
+    text-align: center;
+    padding: 2em;
+    margin-top: 10em;
+}
+.container {
+    max-width: 80%;
+    margin-inline: auto;
+    margin-top: 6em;
+}
